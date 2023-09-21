@@ -80,16 +80,21 @@ max-height: 10px;
 }
 
 .community-page {
-  background-color: red;
+ 
 }
 .community-content {
-  
+  display: flex;
+  height: 80vh;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 .cc-box1 {
-background-color: blue;
+background-color: #A1C7E0;
+flex: 30%;
 }
 .cc-box2 {
-background-color: purple
+background-color: purple;
+flex: 70%;
 }
 
 
