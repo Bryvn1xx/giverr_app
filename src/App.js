@@ -1,28 +1,34 @@
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom'
+import Community from "./pages/Community"
+import Ranking from "./pages/Ranking"
+import Home from "./pages/Home"
+import { Route, Routes } from "react-router-dom"
 import Game from './components/game'
 import Nav from './components/nav'
 
 
-function App() {
+const App = () => {
   return (
-    <Router>
-      <div className='app'>
-        <div className="app__games">
-          <Game />
-          <Game />
-        </div>
+
+    <div className='app'>
+      {/* <div className="giverr-title-div">
+        <h3 className="giverr-title">Giverr</h3>
+      </div> */}
 
 
 
+      <Nav />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/games" />
+        <Route path="/community" element={<Community />} />
+        <Route path="/ranking" element={<Ranking />} />
+      </Routes>
+
+    </div >
 
 
-
-        <Nav />
-
-      </div>
-    </Router>
-  );
+  )
 }
 
 export default App;

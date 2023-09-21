@@ -1,10 +1,11 @@
 // BottomNav.js
 import React from 'react';
 import { Link } from 'react-router-dom'
+import Community from "../pages/Community"
 const Nav = () => {
   return (
     <div className="nav">
-      <Link to="/" className="nav-item">
+      <Link to="/home" className="nav-item">
         <i className="fas fa-home"></i>
         <span>Home</span>
       </Link>
@@ -12,7 +13,7 @@ const Nav = () => {
         <i className="fas fa-gamepad"></i>
         <span>Games</span>
       </Link>
-      <Link to="/community" className="nav-item">
+      <Link to="/community" className="nav-item" >
         <i className="fas fa-users"></i>
         <span>Community</span>
       </Link>
