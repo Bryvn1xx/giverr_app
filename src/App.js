@@ -3,7 +3,6 @@ import Community from "./pages/Community"
 import Ranking from "./pages/Ranking"
 import Home from "./pages/Home"
 import { Route, Routes } from "react-router-dom"
-import Game from './components/game'
 import Nav from './components/nav'
 
 

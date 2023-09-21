@@ -1,4 +1,3 @@
-import react from 'react'
 import Game from '../components/game'
 const Home = () => {
   return (

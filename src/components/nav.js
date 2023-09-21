@@ -1,7 +1,6 @@
 // BottomNav.js
 import React from 'react';
 import { Link } from 'react-router-dom'
-import Community from "../pages/Community"
 const Nav = () => {
   return (
     <div className="nav">
