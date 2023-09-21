@@ -1,4 +1,3 @@
-import react from 'react';
 const Community = () => {
   return (
     <div className="community-page">
